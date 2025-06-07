@@ -1,0 +1,12 @@
+{
+  "name": "acedge-http",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "AGPL-3.0-only",
+  "repository": "https://github.com/outofthegrid-st/acedge-http.git",
+  "author": {
+    "name": "Alerta Dino",
+    "email": "ti@alertadino.org",
+    "url": "https://alertadino.org"
+  }
+}
