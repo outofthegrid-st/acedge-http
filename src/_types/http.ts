@@ -61,7 +61,7 @@ export interface CommonHttpHeaders {
   "content-disposition"?: string | undefined;
   "content-encoding"?: string | undefined;
   "content-language"?: string | undefined;
-  "content-length"?: string | number | undefined;
+  "content-length"?: string | undefined;
   "content-location"?: string | undefined;
   "content-range"?: string | undefined;
   "content-security-policy"?: string | undefined;
@@ -124,4 +124,9 @@ export interface CommonHttpHeaders {
   "x-dns-prefetch-control"?: string | undefined;
   "x-frame-options"?: string | undefined;
   "x-xss-protection"?: string | undefined;
+}
+
+
+export interface Headers extends CommonHttpHeaders {
+  [key: string]: string | string[] | undefined;
 }

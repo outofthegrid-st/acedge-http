@@ -11,6 +11,8 @@
       "es2021",
       "WebWorker",
       "Webworker.Iterable",
+      "DOM",
+      "DOM.Iterable"
     ],
     "allowJs": true,
     "outDir": "./dist",

@@ -530,6 +530,10 @@ export class SetMap<K, V> {
     this._map.clear();
   }
 
+  public count(key: K): number {
+    return this.get(key).size;
+  }
+
   public forEach(callback: (value: V, key: K) => unknown): void;
   public forEach(key: K, callback: (value: V, key: K) => unknown): void;
   public forEach(

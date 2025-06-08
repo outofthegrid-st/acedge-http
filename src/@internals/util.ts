@@ -24,6 +24,11 @@ export function isPlainObject(val: any): boolean {
 }
 
 
+export function isBrowser(): boolean {
+  return typeof process === "undefined" && typeof window !== "undefined";
+}
+
+
 export function isNumber(arg: any): boolean {
   if(typeof arg === "number")
     return true;
